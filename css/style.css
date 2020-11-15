@@ -1,0 +1,200 @@
+html{
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  min-height: 100%;
+  position: relative;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+.container p {
+  margin: 0 auto;
+}
+
+ul.top_menu {
+  float: right;
+}
+
+.top_menu li {
+  float: left;
+  width: auto;
+}
+
+.top_menu li a {
+  float: left;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+
+tr {
+  height: 7rem;
+}
+
+th {
+  width: 150px;
+  vertical-align: middle;
+}
+
+td {
+  padding-left: 1rem;
+
+}
+
+article{
+  text-align: center;
+}
+
+.logo_image {
+  float: left;
+  width: 110px;
+  margin: 0;
+}
+
+.image_area{
+   width: 100%; /*対 body*/
+   margin: 0 auto;
+}
+
+.wrapper{
+  margin-top: 10px;
+  padding-bottom: 100px;
+}
+
+.side_menu{
+  width: 300px;
+  float: left;
+}
+
+.side_menu li{
+  background-color: #F5B4B3;
+  height: 6rem;
+  margin-bottom: 10px;
+}
+
+.side_menu li a{
+  font-size:2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  /* ⬇︎ないと文字左上になる */
+  padding:2rem;
+}
+
+.side_menu li:hover{
+  opacity: 0.6;
+}
+
+.banner img{
+  width: 100%;
+}
+
+.banner{
+  margin-top: 20px;
+}
+
+.banner a :hover{
+  opacity: 0.6;
+}
+
+.content{
+  width: 660px;
+  margin-left:20px;
+  float: left;
+  font-size: 1.5rem;
+}
+
+.left {
+  text-align: left;
+}
+
+.content input[type="text"]{
+  width: 480px;
+}
+
+input[type="checkbox"] {
+}
+
+input[type="submit"]:hover{
+  opacity: 0.55;
+}
+input[type="submit"]{
+  display       : inline-block;
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : #00b3b3;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  border        : 2px solid #00b3b3;    /* 枠の指定 */
+}
+
+.content textarea{
+  width: 480px;
+}
+
+.footer{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  background-color: #4D4D4D;
+  display: table;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.banner_content {
+  /* 上部のマージンを設定 */
+  margin-top: 10px;
+  /* <table>のように振る舞う */
+  display: table;
+}
+.banner_content p {
+  /* <td>のように振る舞う */
+  display: table-cell;
+}
+.banner_content p img {
+  /* 画像サイズの修正 */
+  width: 100%;
+}

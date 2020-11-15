@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/nomalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>株式会社DIVE</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header clearfix">
+        <a href="index.html"><img src="./images/logo.png" class="logo_image"></a>
+        <nav>
+          <ul class="top_menu clearfix">
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="#">事業内容</a></li>
+            <li><a href="#">会社概要</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="top_image">
+        <p>
+          <img src="./images/contact.png" class="image_area">
+        </p>
+      </div>
+      <div class="wrapper clearfix">
+        <aside class="side_menu">
+          <nav>
+            <ul>
+              <li><a href="#">事業内容</a></li>
+              <li><a href="#">会社概要</a></li>
+              <li><a href="#">お問い合わせ</a></li>
+            </ul>
+          </nav>
+          <!-- <p>ブロック要素、インライン要素のみネスト可能-->
+        </aside>
+        <article class="content">
+          <form name="form" action="index.html" method="post">
+            <table>
+              <tr>
+                <th align="right" valign="middle">お名前</th>
+                <td><input type="text" name="name" size="40"></td>
+              </tr>
+              <tr>
+                <th align="right" valign="middle">メールアドレス</th>
+                <td><input type="text" name="name" size="40"></td>
+              </tr>
+              <tr>
+                <th align="right" valign="middle">性別</th>
+                <td class="left"><input type="checkbox" name="gender" value="male">男性
+                <input type="checkbox" name="gender" value="female">女性</td>
+              </tr>
+              <tr>
+                <th align="right" valign="middle">お問い合わせ内容</th>
+                <td><textarea name="contents" rows="2" cols="60"></textarea></p></td>
+              </tr>
+            </table><br>
+            <input type="submit" value="送信" id="button">
+          </form>
+        </article>
+      </div>
+
+      <footer class="footer">
+         <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+      </footer>
+    </div>
+  </body>
+</html>
